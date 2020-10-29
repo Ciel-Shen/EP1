@@ -1,0 +1,157 @@
+body{
+    background: #f6f6f6;
+    overflow: scroll;
+    overflow-x:hidden;  //去除横向滚动条
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.my-qz{
+    position: relative;
+    margin-top: 5rem;
+    z-index: 10;
+    height: 5rem;
+    width: 100%;
+    background-color: #364d66;
+}
+
+#cell{
+}
+
+.my-qz1{
+    display: inline-block;
+    color: white;
+    font-size: 2.5rem;
+    font-family: 仿宋, serif;
+    font-weight: bolder;
+    margin-left: 10%;
+    line-height: 5rem;
+}
+
+.my-qz11{
+    display: inline-block;
+    color: white;
+    margin-left: 3rem;
+}
+
+.footer_1{
+    float: bottom!important;
+    margin-top: 10rem;
+}
+
+.my-ul{
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 2rem;
+}
+.my-ul p{
+    color: #364d66;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.my-ul li{
+    font-size: 0.9rem;
+    line-height: 1.8rem;
+    color: #272e30;
+}
+.my-ul li:hover{
+    color: #ae6335;
+}
+
+.my-right{
+    position: absolute;
+    margin-left: 80%;
+    bottom: 33%;
+}
+
+.my-info{
+    position: relative;
+    height: 5rem;
+    width: 60%;
+    margin-left: 17.5%;
+    margin-top: 2.5rem;
+    background-color: rgba(237, 229, 219, 0.66);
+    border: 1px rgba(177, 191, 204, 0.62) solid;
+}
+.my-info img{
+    display: inline-block;
+    background-color: #364d66;
+    border-radius: 50%;
+    height: 4rem;
+    width: 4rem;
+    margin: 0.5rem 2rem 0.5rem 4rem;
+}
+.my-info span{
+    display: inline-block;
+    font-size: 1.5rem;
+    bottom: 2rem;
+    position: relative;
+}
+.my-info a{
+    position: relative;
+    float: right;
+    margin: 2rem 3rem;
+    color: #4d4d4d;
+    font-size: 0.9rem;
+    font-weight: bolder;
+}
+.my-info a:hover,.my-info span:hover{
+    color: #bc7b58;
+}
+
+.pro-info{
+    position: relative;
+    display: inline-block;
+    height: 3rem;
+    width: 60%;
+    margin-left: 17.3rem;
+    bottom: 0.1rem;
+    border-bottom: 1px rgba(177, 191, 204, 0.62) solid;
+    border-left: 1px rgba(177, 191, 204, 0.62) solid;
+    border-right: 1px rgba(177, 191, 204, 0.62) solid;
+}
+.pro-info span{
+    position: relative;
+    display: inline-block;
+    width: 11.5rem;
+    height: 3rem;
+    margin: 0;
+}
+.pro-info p{
+    line-height: 3rem;
+    text-align: center;
+}
+.pro-info b{
+    color: #df5000;
+}
+
+.my-wuliu {
+    position: relative;
+    height: 3rem;
+    width: 60%;
+    margin-left: 17.5rem;
+    margin-top: 2rem;
+    background-color: rgba(237, 229, 219, 0.66);
+    color: #4a4a4a;
+    font-weight: bold;
+}
+.my-wuliu p{
+    position: relative;
+    display: inline-block;
+    bottom: 1rem;
+}
+.my-wuliu img{
+    display: inline-block;
+    height: 2rem;
+    width: 2rem;
+    margin: 0.5rem 1rem 0.5rem 2rem;
+}
+
+.wuliu{
+    position: relative;
+    margin-left: 17.5rem;
+}
